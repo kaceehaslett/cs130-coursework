@@ -17,13 +17,10 @@ const search = (ev) => {
 }
 
 const playPreview = (ev) => {
-    console.log('hi')
     const preview_url = ev.currentTarget.getAttribute("data-preview-track");
-    // const sourceElement = ev.currentTarget.dataset.preview-track;
     audioPlayer.setAudioFile(preview_url);
     audioPlayer.play();
     console.log(sourceElement)
-    console.log('hello')
 }
 
 const getTracks = (term) => {
