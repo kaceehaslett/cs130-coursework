@@ -1,10 +1,15 @@
 * {
     box-sizing: border-box;
   }
+
+  @font-face {
+    font-family: Avenir;
+    src: url(fonts/AvenirNextLTProCondensed.ttf);
+  }
   
   body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Avenir", Helvetica, sans-serif;
   }
   
   /* Style the side navigation */
@@ -25,6 +30,7 @@
     padding: 16px;
     text-decoration: none;
     display: block;
+    margin-top: 25px;
   }
   
   /* Change color on hover */
@@ -34,50 +40,64 @@
   }
   
   /* Style the content */
-  .homecontent {
-    margin-left: 500px;
-    margin-top: 400px;
-    color: rgb(138, 138, 138);
-}
-
-.aboutcontent {
-  margin-left: 500px;
+.homecontent {
+  margin-left: 400px;
+  margin-right:300px;
   margin-top: 400px;
   color: rgb(138, 138, 138);
 }
 
+.aboutcontent {
+  margin-left: 400px;
+  margin-right:300px;
+  margin-top: 150px;
+  color: rgb(138, 138, 138);
+}
+
+img {
+  height: 333.5px;
+  width:  500px;
+  border-radius: 4px;
+}
+
 .projectscontent {
-  margin-left: 500px;
+  margin-left: 400px;
+  margin-right:300px;
   margin-top: 400px;
   color: rgb(138, 138, 138);
 }
 
 .bbcontent {
-  margin-left: 500px;
+  margin-left: 400px;
+  margin-right:300px;
   margin-top: 400px;
   color: rgb(138, 138, 138);
 }
 
 .mpcontent {
-  margin-left: 500px;
+  margin-left: 400px;
+  margin-right:300px;
   margin-top: 400px;
   color: rgb(138, 138, 138);
 }
 
 .tmcontent {
-  margin-left: 500px;
+  margin-left: 400px;
+  margin-right:300px;
   margin-top: 400px;
   color: rgb(138, 138, 138);
 }
 
 .pscontent {
-  margin-left: 500px;
+  margin-left: 400px;
+  margin-right:300px;
   margin-top: 400px;
   color: rgb(138, 138, 138);
 }
 
 .ffcontent {
-  margin-left: 500px;
+  margin-left: 400px;
+  margin-right:300px;
   margin-top: 400px;
   color: rgb(138, 138, 138);
 }
