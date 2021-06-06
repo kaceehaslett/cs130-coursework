@@ -54,7 +54,7 @@
   color: rgb(138, 138, 138);
 }
 
-img {
+.aboutimg {
   height: 333.5px;
   width:  500px;
   border-radius: 4px;
@@ -70,38 +70,49 @@ img {
 .bbcontent {
   margin-left: 400px;
   margin-right:300px;
-  margin-top: 400px;
+  margin-top: 25px; 
   color: rgb(138, 138, 138);
 }
 
 .mpcontent {
   margin-left: 400px;
   margin-right:300px;
-  margin-top: 400px;
+  margin-top: 25px;
   color: rgb(138, 138, 138);
+}
+
+.mpimg {
+  height: 500px;
+  width:  500px;
+  border-radius: 4px;
 }
 
 .tmcontent {
   margin-left: 400px;
   margin-right:300px;
-  margin-top: 400px;
-  color: rgb(138, 138, 138);
-}
-
-.pscontent {
-  margin-left: 400px;
-  margin-right:300px;
-  margin-top: 400px;
+  margin-top: 25px;
   color: rgb(138, 138, 138);
 }
 
 .ffcontent {
   margin-left: 400px;
   margin-right:300px;
-  margin-top: 400px;
+  margin-top: 25px; 
   color: rgb(138, 138, 138);
 }
 
+.coursecontent {
+  margin-left: 400px;
+  margin-right:300px;
+  margin-top: 25px; 
+  color: rgb(138, 138, 138);
+}
+
+.spreadsheet {
+  height: 1000px;
+  width: 1000px;
+  color: rgb(138, 138, 138);
+}
 .div, h2 {
   font-size: 1000;
 }
